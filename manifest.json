@@ -1,0 +1,31 @@
+{
+	"AppDescription": {
+		"en": "Learn many languages from hundreds of free audio courses"
+	},
+	"AppIcon": {
+		"36x18": "img/LL3618.png",
+		"64x64": "img/LL64.png",
+		"128x128": "img/LL128.png",
+		"256x256": "img/LL256.png"
+	},
+	"AppName": {
+		"en": "leap"
+	},
+	"BundleIdentifier": "leap",
+	"BundleType": "Application",
+	"BundleVersion": "1.0.0",
+	"Dependencies": {
+	  "api": "0.2.3",
+	  "util": "0.1.0",
+	  "resources": "0.2.2"
+    },
+	"RequiredInterface": 1,
+	"RequiredPermissions": [
+	    "https://*",
+	    "http://*"
+	],
+	"SupportedLanguages": [
+		"en"
+	],
+	"VendorIdentifier": "com.listenlanguage"
+}

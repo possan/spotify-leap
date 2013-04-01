@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	color: #888;
+	overflow: hidden;
+}
+
+.cent {
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+#handwrapper {
+	position: absolute;
+}
+
+#hand {
+	position: absolute;
+	left: -50px;
+	top: -50px;
+	width: 100px;
+	height: 100px;
+	display: block;
+	background-color: #000;
+	color: #fff;
+	-webkit-transition: all 0.2s ease;
+}
+
+#hand.active {
+	background-color: #666;
+}
+
+
+#messagewrapper {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	letter-spacing: -2px;
+	font-size: 250%;
+	color: #fff;
+	position: absolute;
+}
+
+#messagewrapper div {
+	position: absolute;
+	width: 800px;
+	left: -400px;
+	top: 0px;
+	opacity: 0.0;
+	text-align: center;
+}
+
+#messagewrapper div.show {
+	top: -50px;
+	opacity: 1.0;
+	-webkit-transition: all 0.4s ease-out;
+}
+
+#messagewrapper div.hide {
+	top: -150px;
+	opacity: 0.0;
+	-webkit-transition: all 0.4s ease-in;
+}
